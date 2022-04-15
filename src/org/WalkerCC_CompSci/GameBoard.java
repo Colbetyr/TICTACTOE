@@ -1,11 +1,13 @@
 package org.WalkerCC_CompSci;
 
 public class GameBoard {
+
     // 0 | 1 | 2
     //--- --- ---
     // 3 | 4 | 5
     //--- --- ---
     // 6 | 7 | 8
+
     Space spaces[];
     String spacesText[];
 
@@ -41,7 +43,7 @@ public class GameBoard {
     }
 
     public void Draw(){
-        System.out.println("");
+         System.out.println("");
         System.out.println(" " + spacesText[0] + " | " + spacesText[1] + " | " + spacesText[2]);
         System.out.println("--- --- ---");
         System.out.println(" " + spacesText[3] + " | " + spacesText[4] + " | " + spacesText[5]);
